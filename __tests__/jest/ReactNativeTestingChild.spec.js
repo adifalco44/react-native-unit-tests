@@ -16,7 +16,7 @@ describe('ReactNativeTestingChild', () => {
   });
 
   beforeEach(() => {
-    Utils.capitalizeWords = jest.fn(); // TODO: ???
+    Utils.capitalizeWords = jest.fn(); 
     Utils.capitalizeWords.mockReturnValue(capitalizedString);
     onClearStub = jest.fn();
   });
